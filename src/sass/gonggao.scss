@@ -1,0 +1,68 @@
+@charset "utf-8";
+.container {
+    .gonggao {
+        margin-bottom: 30px;
+        .radio {
+            height: 40px;
+            padding-left: 55px;
+            background: url(../img/home-radio-icon_03.png) no-repeat left 3px;
+            h1 {
+                font-weight: normal;
+                line-height: 40px;
+                font-size: 14px;
+                color: #333333;
+            }
+        }
+        .radio-box {
+            overflow: hidden;
+            .item-small {
+                width: 226px;
+                height: 160px;
+                background: #585858;
+                position: relative;
+                float: left;
+                .line-level {
+                    position: absolute;
+                    top: 50%;
+                    display: block;
+                    width: 100%;
+                    height: 1px;
+                    background: #717171
+                }
+                .line-vertical {
+                    position: absolute;
+                    left: 50%;
+                    display: block;
+                    height: 100%;
+                    width: 1px;
+                    background: #717171
+                }
+                ul {
+                    li {
+                        width: 113px;
+                        height: 79px;
+                        float: left;
+                        a {
+                            display: block;
+                            height: 79px;
+                            font-size: 14px;
+                            color: #ffffff;
+                            text-align: center;
+                            img {
+                                padding: 15px 0px 5px;
+                                margin: 0px auto
+                            }
+                            span {
+                                display: block
+                            }
+                        }
+                    }
+                }
+            }
+            .item {
+                float: left;
+                margin-left: 13px
+            }
+        }
+    }
+}

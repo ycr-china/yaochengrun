@@ -1,0 +1,71 @@
+    @charset "utf-8";
+    .nav-shadow {
+        box-shadow: 0px 3px 3px 0px #e1e1e1;
+    }
+    
+    .login {
+        .nav {
+            .container {
+                .head-login {
+                    color: #333333;
+                    margin-top: 26px;
+                    line-height: 26px;
+                    height: 26px;
+                    margin-left: 20px;
+                    border-left: 2px solid rgb(221, 221, 221);
+                    padding-left: 15px;
+                    float: left;
+                    font-size: 24px;
+                }
+            }
+        }
+        .registor-box {
+            width: 510px;
+            padding-bottom: 66px;
+            margin: 66px auto 0px auto;
+            .registor-row {
+                overflow: hidden;
+                padding-bottom: 40px;
+                p {
+                    width: 170px;
+                    text-align: right;
+                    height: 40px;
+                    line-height: 40px;
+                    float: left;
+                    font-size: 14px;
+                    color: #000;
+                }
+                input {
+                    width: 318px;
+                    height: 38px;
+                    float: left;
+                    margin-left: 20px;
+                    border: 1px solid #dedede
+                }
+                .code {
+                    width: 170px;
+                }
+            }
+            .registor-btn {
+                width: 320px;
+                text-align: center;
+                background: #f12020;
+                height: 44px;
+                line-height: 44px;
+                color: #ffffff;
+                font-size: 16px;
+                cursor: pointer;
+                float: right
+            }
+            .to-login {
+                line-height: 16px;
+                height: 16px;
+                font-size: 14px;
+                text-align: center;
+                margin-top: 15px;
+                a {
+                    color: #f12020
+                }
+            }
+        }
+    }

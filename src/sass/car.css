@@ -1,0 +1,132 @@
+.car-head {
+  overflow: hidden;
+  background: #fff;
+}
+
+.car-head .logo {
+  width: 239px;
+  float: left;
+}
+
+.car-head .car-nav {
+  width: 650px;
+  float: right;
+  padding-top: 20px;
+}
+
+.car-head .car-nav .car-step {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+}
+
+.car-head .car-nav .car-step span {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  font-size: 20px;
+  color: #afafaf;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #afafaf;
+}
+
+.car-head .car-nav .car-step .active {
+  background: #4dbd62;
+  color: #fff;
+}
+
+.car-head p {
+  float: left;
+  width: 130px;
+  border-top: 4px solid #cccccc;
+  margin: 14px 15px 0;
+}
+
+.car-info .car-top {
+  color: #333;
+  height: 66px;
+}
+
+.car-info .car-top .car-select {
+  overflow: hidden;
+  line-height: 66px;
+}
+
+.car-info .car-top .car-select input {
+  float: left;
+  margin: 25px 18px 0 15px;
+}
+
+.car-info .car-top .car-select p {
+  float: left;
+}
+
+.car-info .car-top .car-select p span {
+  color: #f12020;
+}
+
+.car-info .car-item {
+  overflow: hidden;
+  background: #fff;
+}
+
+.car-info .car-item .car-checked {
+  width: 50px;
+  height: 165px;
+}
+
+.car-info .car-item .car-checked input {
+  margin: 72px 0 0 16px;
+}
+
+.car-info .car-item .car-main .car-deal {
+  height: 42px;
+  width: 1195px;
+}
+
+.car-info .car-item .car-main .car-deal .opt-del {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 10px 22px 0 6px;
+  background: url(../img/car-icon07.png) no-repeat;
+  float: right;
+}
+
+.car-info .car-item .car-main .car-deal .opt-like {
+  display: block;
+  width: 24px;
+  height: 22px;
+  margin: 10px 22px 0 6px;
+  background: url(../img/car-icon06.png) no-repeat;
+  float: right;
+}
+
+.car-info .car-item .car-main .car-deal .opt-like:hover {
+  background: url(../img/car-hover-icon.jpg) no-repeat;
+}
+
+.car-info .car-item .car-main .goods-infor .goods-pic {
+  float: left;
+}
+
+.car-info .car-item .car-main .goods-infor .goods-pic img {
+  display: block;
+  width: 110px;
+  height: 110px;
+}
+
+.car-info .car-item .car-main .goods-infor .goods-title {
+  width: 300px;
+  height: 110px;
+  margin-left: 13px;
+  color: #333333;
+  font-size: 14px;
+  float: left;
+  padding-top: 30px;
+}

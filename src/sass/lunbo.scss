@@ -1,0 +1,82 @@
+@charset "utf-8";
+.lunbo {
+    height: 500px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    .lunbo-pic {
+        a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            img {
+                position: absolute;
+                top: 0px;
+                left: 50%;
+                margin-left: -960px;
+            }
+        }
+    }
+    .container {
+        position: relative;
+        .left-bar {
+            width: 226px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            ul {
+                height: 480px;
+                background: rgba(0, 0, 0, .4);
+                padding: 10px 0px;
+                z-index: 50;
+                li {
+                    height: 60px;
+                    text-align: center;
+                    &:hover {
+                        background: #f12020
+                    }
+                    &:nth-of-type(1) {
+                        a {
+                            background: url(../img/inner-chiq-icon.png)no-repeat 30px center;
+                        }
+                    }
+                    &:nth-of-type(2) {
+                        a {
+                            background: url(../img/inner-TV-icon.png)no-repeat 30px center;
+                        }
+                    }
+                    &:nth-of-type(3) {
+                        a {
+                            background: url(../img/inner-air-icon.png)no-repeat 30px center;
+                        }
+                    }
+                    &:nth-of-type(4) {
+                        a {
+                            background: url(../img/inner-icebox-icon.png)no-repeat 30px center;
+                        }
+                    }
+                    &:nth-of-type(5) {
+                        a {
+                            background: url(../img/inner-ele-icon.png)no-repeat 30px center;
+                        }
+                    }
+                    &:nth-of-type(6) {
+                        a {
+                            background: url(../img/inner-digital-icon.png)no-repeat 30px center;
+                        }
+                    }
+                    &:nth-of-type(7) {
+                        a {
+                            background: url(../img/inner-other-icon.png)no-repeat 30px center;
+                        }
+                    }
+                    a {
+                        display: block;
+                        line-height: 60px;
+                        color: #fff
+                    }
+                }
+            }
+        }
+    }
+}
